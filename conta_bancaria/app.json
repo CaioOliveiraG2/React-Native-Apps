@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "conta_bancaria",
+    "slug": "snack-43c33b72-de4b-433e-952a-b2186c6ebb67",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Nome (TextInput), Idade (TextInput), Sexo (Picker), Escolaridade (Picker), Limite na conta (Slider), Brasileiro (Switch), Botão (Button ou Pressable). Ao clicar no botão “Confirmar” exibir todos os dados abaixo com Texts.\n"
+  }
+}
